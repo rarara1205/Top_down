@@ -218,6 +218,15 @@
     <Image Include="App\example\obj\siv3d-kun-eye.png">
       <Filter>Resource Files\example\obj</Filter>
     </Image>
+    <Image Include="Assets\Tex\Tiles\WH_32x32.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Tex\Tiles\BK_32x32.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\Tex\Tiles\Grid_32x32.png">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="App\Resource.rc">
@@ -732,6 +741,9 @@
     <None Include="App\engine\font\min\siv3d-min.woff">
       <Filter>Resource Files\engine\font\min</Filter>
     </None>
+    <None Include="Assets\Maps\layer0.csv" />
+    <None Include="Assets\Maps\layer1.csv" />
+    <None Include="Assets\Maps\passable.csv" />
   </ItemGroup>
   <ItemGroup>
     <Media Include="App\example\test.mp3">

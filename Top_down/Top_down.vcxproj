@@ -146,6 +146,9 @@
     <Image Include="App\example\texture\wood.jpg" />
     <Image Include="App\example\windmill.png" />
     <Image Include="App\icon.ico" />
+    <Image Include="Assets\Tex\Tiles\BK_32x32.png" />
+    <Image Include="Assets\Tex\Tiles\Grid_32x32.png" />
+    <Image Include="Assets\Tex\Tiles\WH_32x32.png" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="App\Resource.rc" />
@@ -296,6 +299,9 @@
     <None Include="App\example\toml\config.toml" />
     <None Include="App\example\toml\test.toml" />
     <None Include="App\example\zip\zip_test.zip" />
+    <None Include="Assets\Maps\layer0.csv" />
+    <None Include="Assets\Maps\layer1.csv" />
+    <None Include="Assets\Maps\passable.csv" />
   </ItemGroup>
   <ItemGroup>
     <Media Include="App\example\shot.mp3" />
